@@ -30,7 +30,7 @@ def aoh_lookup(assembled_aoh, row= 2, key= :name)
   assembled_aoh[row][key]
 end
 
-def aoh_update(local_copy_of_aoh, row= , key, new_value)
+def aoh_update(local_copy_of_aoh, row= 1, key= :name, new_value= "")
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
 end
