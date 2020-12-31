@@ -26,7 +26,7 @@ def literal_aoh
   # held in the constants
 end
 
-def aoh_lookup(aoh, row= 2, key= :name)
+def aoh_lookup(assembled_aoh, row= 2, key= :name)
   results[row][key]
 end
 
